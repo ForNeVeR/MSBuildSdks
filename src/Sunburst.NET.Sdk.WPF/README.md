@@ -5,6 +5,15 @@ The `Sunburst.NET.Sdk.WPF` MSBuild project SDK is a variant on the `Microsoft.NE
 
 This project contains logic originally from the [`MSBuild.Sdk.Extras` nuget package](https://github.com/onovotny/MSBuildSdkExtras). The license for this project is copied below.
 
+How to pack
+-----------
+
+First, commit the changes and make a tag in form
+`Sunburst.NET.Sdk.WPF-v<version>`. Then, issue a `dotnet build` command. The
+package version is automatically derived from the tag, with `master` branch used
+to publish a release version, and other branches used to publish preview
+versions.
+
 ## The MIT License (__MIT__)
 
 ### Copyright (c) Oren Novotny
