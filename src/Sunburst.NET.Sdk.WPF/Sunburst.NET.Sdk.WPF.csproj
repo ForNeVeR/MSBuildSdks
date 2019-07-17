@@ -4,8 +4,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Provides C# functionality specific to WPF projects</Description>
     <IncludeBuildOutput>false</IncludeBuildOutput>
+    <Authors>ForNeVeR</Authors>
     <PackageTags>MSBuild MSBuildSDK WPF</PackageTags>
-    <PackageProjectURL>https://github.com/SunburstApps/MSBuildSdks/tree/master/src/Sunburst.NET.Sdk.WPF</PackageProjectURL>
-    <PackageLicenseURL>https://github.com/SunburstApps/MSBuildSdks/blob/master/LICENSE</PackageLicenseURL>
+    <PackageProjectURL>https://github.com/ForNeVeR/MSBuildSdks/tree/master/src/Sunburst.NET.Sdk.WPF</PackageProjectURL>
   </PropertyGroup>
 </Project>

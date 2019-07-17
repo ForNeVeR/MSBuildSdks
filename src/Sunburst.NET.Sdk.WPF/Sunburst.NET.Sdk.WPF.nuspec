@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>$id$</id>
+    <id>$id$.Patched</id>
     <version>$version$</version>
     <description>$description$</description>
-    <authors>$authors$</authors>
+    <authors>Microsoft;$authors$</authors>
     <owners>$authors$</owners>
     <copyright>$copyright$</copyright>
     <projectUrl>$projecturl$</projectUrl>
-    <licenseUrl>$licenseurl$</licenseUrl>
+    <license type="expression">MIT</license>
     <iconUrl>$iconurl$</iconUrl>
     <tags>$tags$</tags>
     <packageTypes>
