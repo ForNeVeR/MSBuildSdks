@@ -5,7 +5,8 @@
 
   <PropertyGroup>
     <_SdkVisualStudioVersion>$(VisualStudioVersion)</_SdkVisualStudioVersion>
-    <_SdkVisualStudioVersion Condition="'$(_SdkVisualStudioVersion)' == '' or '$(_SdkVisualStudioVersion)' &lt; '14.0' ">15.0</_SdkVisualStudioVersion>
+    <_SdkVisualStudioVersion Condition="'$(_SdkVisualStudioVersion)' == '16.0'">Current</_SdkVisualStudioVersion>
+    <_SdkVisualStudioVersion Condition="'$(_SdkVisualStudioVersion)' == '' or ('$(_SdkVisualStudioVersion)' != 'Current' and '$(_SdkVisualStudioVersion)' &lt; '14.0')">15.0</_SdkVisualStudioVersion>
 
     <!-- Workaround for lack of XAML support in the new project system -->
     <LanguageTargets Condition="'$(_SdkLanguageName)' != 'FSharp'">$(MSBuildExtensionsPath)\$(_SdkVisualStudioVersion)\Bin\Microsoft.$(_SdkLanguageName).targets</LanguageTargets>
